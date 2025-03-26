@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Exemplo de Tabela</title> 
+  <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <table> 
+   <caption>
+    Exemplo de Tabela
+   </caption> 
+   <colgroup> 
+    <col style="background-color: #f2f2f2"> 
+    <col style="background-color: #e6e6e6"> 
+   </colgroup> 
+   <thead> 
+    <tr> 
+     <th>Nome</th> 
+     <th>Idade</th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td>João</td> 
+     <td>25</td> 
+    </tr> 
+    <tr> 
+     <td>Maria</td> 
+     <td>30</td> 
+    </tr> 
+   </tbody> 
+   <tfoot> 
+    <tr> 
+     <td colspan="2">Total de Pessoas: 2</td> 
+    </tr> 
+   </tfoot> 
+  </table> 
+ </body>
+</html>
